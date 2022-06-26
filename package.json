@@ -55,7 +55,7 @@
     "typescript": "^4.7.4"
   },
   "lint-staged": {
-    "*.{ts}": "npm run lint:fix"
+    "*.ts": "npm run lint:fix"
   },
   "config": {
     "commitizen": {
