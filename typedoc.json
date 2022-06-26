@@ -1,0 +1,13 @@
+{
+  "entryPoints": ["src"],
+  "out": "docs",
+  "readme": "./README.md",
+  "includeVersion": true,
+  "disableSources": true,
+  "gitRemote": "https://github.com/qluwlh/lulu",
+  "githubPages": "https://github.com/qluwlh/lulu",
+  "categorizeByGroup": true,
+  "hideGenerator": true,
+  "cleanOutputDir": true,
+  "pretty": true
+}
