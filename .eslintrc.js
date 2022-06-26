@@ -5,29 +5,23 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: ['airbnb-base', 'prettier'],
+  extends: ['airbnb-base', 'airbnb-typescript/base', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
+    project: './tsconfig.eslint.json',
   },
   plugins: ['@typescript-eslint', 'prettier'],
-  rules: {
-    'prettier/prettier': 'error',
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        ts: 'never',
-      },
-    ],
-    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
-  },
   settings: {
     'import/resolver': {
       node: {
         extensions: ['.ts', '.d.ts'],
       },
     },
+  },
+  rules: {
+    'prettier/prettier': 'error',
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
 }
