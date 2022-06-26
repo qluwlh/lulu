@@ -11,12 +11,12 @@ npm i @wanglihua/lulu
 Then in the console:
 
 ```typescript
-import { add } from('@wanglihua/lulu');
+import { add } from '@wanglihua/lulu';
 ```
 
 **Note for ES6 module and browsers**
 ```typescript
-import { add } from('@wanglihua/lulu/es6');
+import { add } from '@wanglihua/lulu/es6';
 ```
 
 
