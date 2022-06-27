@@ -26,6 +26,7 @@ specifiers:
   rimraf: ^3.0.2
   standard-version: ^9.5.0
   ts-jest: ^28.0.5
+  ts-toolbelt: ^9.6.0
   typedoc: ^0.22.18
   typescript: ^4.7.4
 
@@ -55,6 +56,7 @@ devDependencies:
   rimraf: 3.0.2
   standard-version: 9.5.0
   ts-jest: 28.0.5_zv2ltmnvcc5apkdaecods742je
+  ts-toolbelt: 9.6.0
   typedoc: 0.22.18_typescript@4.7.4
   typescript: 4.7.4
 
@@ -5156,6 +5158,10 @@ packages:
       typescript: 4.7.4
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
+    dev: true
+
+  /ts-toolbelt/9.6.0:
+    resolution: {integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==}
     dev: true
 
   /tsconfig-paths/3.14.1:

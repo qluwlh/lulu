@@ -66,6 +66,7 @@
     "rimraf": "^3.0.2",
     "standard-version": "^9.5.0",
     "ts-jest": "^28.0.5",
+    "ts-toolbelt": "^9.6.0",
     "typedoc": "^0.22.18",
     "typescript": "^4.7.4"
   },

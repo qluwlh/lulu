@@ -22,5 +22,5 @@
  * ```
  */
 const placeholder: unique symbol = Symbol('__')
-
+export type Placeholder = typeof placeholder
 export default placeholder
