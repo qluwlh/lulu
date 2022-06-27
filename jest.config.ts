@@ -4,7 +4,7 @@ export default {
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.ts', '!src/index.ts'],
   transform: {
-    '^.+\\.ts?$': 'ts-jest',
+    '^.+\\.ts?$': ['@swc/jest'],
   },
   testRegex: 'test',
   moduleFileExtensions: ['ts', 'js'],
